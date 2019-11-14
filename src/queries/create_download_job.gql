@@ -1,0 +1,5 @@
+mutation CreateDownloadJob($playlist: String) {
+  createDownloadJob(playlist: $playlist) {
+    playlistId
+  }
+}
